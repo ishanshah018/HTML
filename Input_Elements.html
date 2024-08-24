@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="\server">
+        <p><b>Checkbox</b></p>
+        <input type="checkbox" name="age" id="age">
+        <label for="age">I am 18+</label>
+        
+        <br>
+        <hr>
+        <p><b>Checkbox~Grouped</b></p>
+        <div>
+            Choose Your Subjects: 
+            <input type="checkbox" name="Subjects" id="Maths" value="Maths">
+            <label for="Maths">Maths</label>
+
+            <input type="checkbox" name="Subjects" id="Physics" value="Phy">
+            <label for="Physics">Physics</label>
+
+            <input type="checkbox" name="Subjects" id="Chemistry" value="Chem">
+            <label for="Chemistry">Chemistry</label>
+
+            <input type="checkbox" name="Subjects" id="Biology" value="Bio">
+            <label for="Biology">Biology</label>
+           
+        </div>
+        <hr>
+        <div>
+            <p><b>Radio~Grouped</b></p>
+            <input type="radio" name="Fruits" id="Apple" value="Apple">
+            <label for="Apple">Apple</label>
+
+            <input type="radio" name="Fruits" id="Banana" value="Banana">
+            <label for="Banana">Banana</label>
+
+            <input type="radio" name="Fruits" id="Mango" value="Mango">
+            <label for="Mango">Mango</label>
+
+            <input type="radio" name="Fruits" id="Grapes" value="Grapes">
+            <label for="Grapes">Grapes</label>
+        </div>
+        <hr>
+       
+        <p><b>Select Element</b></p>
+        <div>
+            Choose Your Profession
+            <select name="Profession" id="Profession">
+            <option>Select Your Option</option>
+            <option value="Student">Student</option>
+            <option value="Dev">Developer</option>
+            </select>
+            
+        </div>
+
+        <hr>
+        <p><b>Range Element</b></p>
+        <div>
+            <label for="Volume">Select Your Volume Level</label>
+            <input type="range" id="vol" min="0" max="100" name="Volume">
+        </div>
+        <br>
+        <div>
+            <label for="Volume">Select Your Volume Level</label>
+            <input type="range" id="vol" min="0" max="100" name="Volume" step="10">
+        </div>
+        <button>Submit</button>
+       
+    </form>
+</body>
+</html>
